@@ -3,42 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		24ADC1FD1BE814B42DF8EB79 /* libPods-ReactNativePermissionsExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C978EE75BC851AEEE339990 /* libPods-ReactNativePermissionsExample.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		9F50A31F4B74784D83E3FE25 /* libPods-ReactNativePermissionsExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D661042027F2224339DE264B /* libPods-ReactNativePermissionsExample.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* ReactNativePermissionsExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactNativePermissionsExampleTests.m; sourceTree = "<group>"; };
-		0C978EE75BC851AEEE339990 /* libPods-ReactNativePermissionsExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativePermissionsExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		11F594E4980370ED9BF524F2 /* Pods-ReactNativePermissionsExample-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativePermissionsExample-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNativePermissionsExample-tvOSTests/Pods-ReactNativePermissionsExample-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* ReactNativePermissionsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactNativePermissionsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ReactNativePermissionsExample/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ReactNativePermissionsExample/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ReactNativePermissionsExample/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ReactNativePermissionsExample/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ReactNativePermissionsExample/main.m; sourceTree = "<group>"; };
-		2AE6E76ED394152DFD952238 /* Pods-ReactNativePermissionsExample-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativePermissionsExample-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativePermissionsExample-tvOSTests/Pods-ReactNativePermissionsExample-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		46819F88C4AAE1390657E932 /* libPods-ReactNativePermissionsExample-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativePermissionsExample-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		68CB9F08079E3C2644066FEC /* Pods-ReactNativePermissionsExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativePermissionsExample.release.xcconfig"; path = "Target Support Files/Pods-ReactNativePermissionsExample/Pods-ReactNativePermissionsExample.release.xcconfig"; sourceTree = "<group>"; };
-		713DBB95838FD2794504FFB7 /* libPods-ReactNativePermissionsExample-ReactNativePermissionsExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativePermissionsExample-ReactNativePermissionsExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C3D5738A1F90ED43D04334C /* Pods-ReactNativePermissionsExample-ReactNativePermissionsExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativePermissionsExample-ReactNativePermissionsExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativePermissionsExample-ReactNativePermissionsExampleTests/Pods-ReactNativePermissionsExample-ReactNativePermissionsExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3A456411E3F5551A5A0B461C /* Pods-ReactNativePermissionsExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativePermissionsExample.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativePermissionsExample/Pods-ReactNativePermissionsExample.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ReactNativePermissionsExample/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		955DDA95724EE8F90A075C37 /* Pods-ReactNativePermissionsExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativePermissionsExample.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativePermissionsExample/Pods-ReactNativePermissionsExample.debug.xcconfig"; sourceTree = "<group>"; };
-		A9096DFFB514918B47CCCE54 /* Pods-ReactNativePermissionsExample-ReactNativePermissionsExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativePermissionsExample-ReactNativePermissionsExampleTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNativePermissionsExample-ReactNativePermissionsExampleTests/Pods-ReactNativePermissionsExample-ReactNativePermissionsExampleTests.release.xcconfig"; sourceTree = "<group>"; };
-		C06AA01B9B1F464726C57565 /* libPods-ReactNativePermissionsExample-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativePermissionsExample-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D661042027F2224339DE264B /* libPods-ReactNativePermissionsExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativePermissionsExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB0E31797ECC0523287F0DD4 /* Pods-ReactNativePermissionsExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativePermissionsExample.release.xcconfig"; path = "Target Support Files/Pods-ReactNativePermissionsExample/Pods-ReactNativePermissionsExample.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		FA9A6155B28962EA5D095732 /* Pods-ReactNativePermissionsExample-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativePermissionsExample-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativePermissionsExample-tvOS/Pods-ReactNativePermissionsExample-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		FD993CF7F7DF9144A001F9C8 /* Pods-ReactNativePermissionsExample-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativePermissionsExample-tvOS.release.xcconfig"; path = "Target Support Files/Pods-ReactNativePermissionsExample-tvOS/Pods-ReactNativePermissionsExample-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24ADC1FD1BE814B42DF8EB79 /* libPods-ReactNativePermissionsExample.a in Frameworks */,
+				9F50A31F4B74784D83E3FE25 /* libPods-ReactNativePermissionsExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,10 +80,7 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				0C978EE75BC851AEEE339990 /* libPods-ReactNativePermissionsExample.a */,
-				713DBB95838FD2794504FFB7 /* libPods-ReactNativePermissionsExample-ReactNativePermissionsExampleTests.a */,
-				C06AA01B9B1F464726C57565 /* libPods-ReactNativePermissionsExample-tvOS.a */,
-				46819F88C4AAE1390657E932 /* libPods-ReactNativePermissionsExample-tvOSTests.a */,
+				D661042027F2224339DE264B /* libPods-ReactNativePermissionsExample.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -100,14 +88,8 @@
 		802A04D489295524A7725078 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				955DDA95724EE8F90A075C37 /* Pods-ReactNativePermissionsExample.debug.xcconfig */,
-				68CB9F08079E3C2644066FEC /* Pods-ReactNativePermissionsExample.release.xcconfig */,
-				7C3D5738A1F90ED43D04334C /* Pods-ReactNativePermissionsExample-ReactNativePermissionsExampleTests.debug.xcconfig */,
-				A9096DFFB514918B47CCCE54 /* Pods-ReactNativePermissionsExample-ReactNativePermissionsExampleTests.release.xcconfig */,
-				FA9A6155B28962EA5D095732 /* Pods-ReactNativePermissionsExample-tvOS.debug.xcconfig */,
-				FD993CF7F7DF9144A001F9C8 /* Pods-ReactNativePermissionsExample-tvOS.release.xcconfig */,
-				2AE6E76ED394152DFD952238 /* Pods-ReactNativePermissionsExample-tvOSTests.debug.xcconfig */,
-				11F594E4980370ED9BF524F2 /* Pods-ReactNativePermissionsExample-tvOSTests.release.xcconfig */,
+				3A456411E3F5551A5A0B461C /* Pods-ReactNativePermissionsExample.debug.xcconfig */,
+				EB0E31797ECC0523287F0DD4 /* Pods-ReactNativePermissionsExample.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -149,14 +131,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ReactNativePermissionsExample" */;
 			buildPhases = (
-				87021B4B19578F8A3278A4E4 /* [CP] Check Pods Manifest.lock */,
+				25BFD7363248992103C99AE7 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				3DF3D3DF3A20288CF235769D /* [CP] Embed Pods Frameworks */,
-				750E086C4A6F997C2384BFE9 /* [CP] Copy Pods Resources */,
+				1614A84DD1501061B9A37F02 /* [CP] Embed Pods Frameworks */,
+				95D7708F26652F6F18462E20 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,16 +155,15 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1340;
 				TargetAttributes = {
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = LUBGWANK4N;
 						LastSwiftMigration = 1120;
 					};
 				};
 			};
 			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ReactNativePermissionsExample" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 11.4";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -226,43 +207,24 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		3DF3D3DF3A20288CF235769D /* [CP] Embed Pods Frameworks */ = {
+		1614A84DD1501061B9A37F02 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativePermissionsExample/Pods-ReactNativePermissionsExample-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal/OpenSSL.framework/OpenSSL",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativePermissionsExample/Pods-ReactNativePermissionsExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativePermissionsExample/Pods-ReactNativePermissionsExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativePermissionsExample/Pods-ReactNativePermissionsExample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		750E086C4A6F997C2384BFE9 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativePermissionsExample/Pods-ReactNativePermissionsExample-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativePermissionsExample/Pods-ReactNativePermissionsExample-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		87021B4B19578F8A3278A4E4 /* [CP] Check Pods Manifest.lock */ = {
+		25BFD7363248992103C99AE7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -282,6 +244,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95D7708F26652F6F18462E20 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativePermissionsExample/Pods-ReactNativePermissionsExample-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativePermissionsExample/Pods-ReactNativePermissionsExample-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativePermissionsExample/Pods-ReactNativePermissionsExample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -320,15 +299,21 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 955DDA95724EE8F90A075C37 /* Pods-ReactNativePermissionsExample.debug.xcconfig */;
+			baseConfigurationReference = 3A456411E3F5551A5A0B461C /* Pods-ReactNativePermissionsExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = LUBGWANK4N;
+				DEVELOPMENT_TEAM = VN9S4TF278;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ReactNativePermissionsExample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(SDKROOT)/usr/lib/swift",
 					"$(inherited)",
@@ -340,27 +325,36 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = ReactNativePermissionsExample;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_INCLUDE_PATHS = "$(inherited) \"${PODS_CONFIGURATION_BUILD_DIR}\"";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68CB9F08079E3C2644066FEC /* Pods-ReactNativePermissionsExample.release.xcconfig */;
+			baseConfigurationReference = EB0E31797ECC0523287F0DD4 /* Pods-ReactNativePermissionsExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = LUBGWANK4N;
+				DEVELOPMENT_TEAM = VN9S4TF278;
 				INFOPLIST_FILE = ReactNativePermissionsExample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(SDKROOT)/usr/lib/swift",
 					"$(inherited)",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -368,8 +362,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = ReactNativePermissionsExample;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_INCLUDE_PATHS = "$(inherited) \"${PODS_CONFIGURATION_BUILD_DIR}\"";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -397,6 +393,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -406,6 +403,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -421,8 +419,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
 				LIBRARY_SEARCH_PATHS = (
 					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
 					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
@@ -457,6 +458,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -466,6 +468,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -474,8 +477,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
 				LIBRARY_SEARCH_PATHS = (
 					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
 					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",

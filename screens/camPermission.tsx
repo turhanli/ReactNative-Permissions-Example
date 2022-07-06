@@ -6,13 +6,33 @@ import {
   StatusBar,
   Platform,
   ScrollView,
+  Alert,
+  TouchableOpacity,
+  Image,
 } from 'react-native';
 import {SafeAreaView} from 'react-native-safe-area-context';
 import {request, PERMISSIONS} from 'react-native-permissions';
+import { RNCamera } from 'react-native-camera';
+
+//const [durum, setdurum] = React.useState(0);
+
+const AsyncAlert = () => {
+  return new Promise((resolve, reject) => {
+      Alert.alert(
+          'Title',
+          'Message',
+          [
+              {text: 'YES', onPress: () => resolve(0) },
+              {text: 'NO', onPress: () => resolve(0) }
+          ],
+          { cancelable: false }
+      )
+  })
+} 
 
 export default function CameraPermissionScreen() {
   const [permissionResult, setPermissionResult] = React.useState('Not asked');
-
+  const [durum, setdurum] = React.useState(0);
   React.useEffect(() => {
     request(
       Platform.OS === 'ios'
@@ -24,74 +44,58 @@ export default function CameraPermissionScreen() {
     });
   }, []);
 
+
+  const barcodeReadHandler = ({ data }) => {
+    i++;
+    if(i === 1){
+      console.log(data);
+    }
+  }
+
+  let userResponse;
+
+
+  onBarCodeRead = async (e) => {
+    //const userResponse =  AsyncAlert();
+    //await getAPI();
+    
+    if(durum === 0){
+      setdurum(1);
+      userResponse = await AsyncAlert();
+      setdurum(userResponse);
+      
+    }
+    
+    //Alert.alert("Barcode value is" + e.data, "Barcode type is" + e.type);
+  }
+  
+
   return (
+
     <>
-      <StatusBar barStyle="dark-content" />
-      <SafeAreaView style={styles.root}>
-        <ScrollView style={styles.container}>
-          <Text style={styles.title}>Camera Permission Needed</Text>
-          <Text style={styles.description}>
-            This app needs access to your camera. If you are not comfortable
-            with this permission, you can go to settings and modify it at any
-            time.
-          </Text>
-          <View style={styles.row}>
-            <Text
-              style={{
-                justifyContent: 'center',
-                alignSelf: 'center',
-                alignContent: 'center',
-                fontSize: 18,
-                fontWeight: '600',
-                color: '#DE95BA',
-                margin: 16,
-              }}>
-              Permission Result:
-            </Text>
-            <Text
-              style={{
-                justifyContent: 'center',
-                alignSelf: 'center',
-                alignContent: 'center',
-                fontSize: 18,
-                fontWeight: '600',
-                color: '#FFD9E8',
-                margin: 16,
-              }}>
-              {permissionResult}
-            </Text>
-          </View>
-          <View style={styles.results}>
-            <Text style={styles.resultTitle}>UNAVAILABLE:</Text>
-            <Text style={styles.resultInfo}>
-              This feature is not available (on this device / in this context)
-            </Text>
-          </View>
-          <View style={styles.results}>
-            <Text style={styles.resultTitle}>DENIED:</Text>
-            <Text style={styles.resultInfo}>
-              The permission has not been requested / is denied but requestable
-            </Text>
-          </View>
-          <View style={styles.results}>
-            <Text style={styles.resultTitle}>GRANTED:</Text>
-            <Text style={styles.resultInfo}>The permission is granted</Text>
-          </View>
-          <View style={styles.results}>
-            <Text style={styles.resultTitle}>LIMITED:</Text>
-            <Text style={styles.resultInfo}>
-              The permission is granted but with limitations
-            </Text>
-          </View>
-          <View style={styles.results}>
-            <Text style={styles.resultTitle}>BLOCKED:</Text>
-            <Text style={styles.resultInfo}>
-              The permission is denied and not requestable anymore
-            </Text>
-          </View>
-        </ScrollView>
-      </SafeAreaView>
-    </>
+
+      
+        
+    
+      <RNCamera 
+      ref={ref => {
+        this.camera = ref;
+      }}
+      captureAudio={false}
+      style={{flex: 1}}
+      type={RNCamera.Constants.Type.back}
+      onBarCodeRead={this.onBarCodeRead}
+      androidCameraPermissionOptions={{
+        title: 'Permission to use camera',
+        message: 'We need your permission to use your camera',
+        buttonPositive: 'Ok',
+        buttonNegative: 'Cancel',
+      }} />
+    
+
+      </>
+      
+
   );
 }
 const styles = StyleSheet.create({

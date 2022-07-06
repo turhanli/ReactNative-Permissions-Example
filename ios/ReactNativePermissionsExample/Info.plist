@@ -30,6 +30,13 @@
 		<true/>
 		<key>NSExceptionDomains</key>
 		<dict>
+			<key>New Exception Domain</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+			</dict>
 			<key>localhost</key>
 			<dict>
 				<key>NSExceptionAllowsInsecureHTTPLoads</key>
@@ -39,8 +46,6 @@
 	</dict>
 	<key>NSCalendarsUsageDescription</key>
 	<string>Calendar Permission Description</string>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Photos Permission Description</string>
 	<key>NSCameraUsageDescription</key>
 	<string>Camera Permission Description</string>
 	<key>NSContactsUsageDescription</key>
@@ -49,6 +54,8 @@
 	<string>Face ID Permission Description</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>Microphone Permission Description</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Photos Permission Description</string>
 	<key>NSRemindersUsageDescription</key>
 	<string>Reminders Permission Description</string>
 	<key>UILaunchStoryboardName</key>
